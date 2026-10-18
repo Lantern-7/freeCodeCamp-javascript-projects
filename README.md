@@ -190,8 +190,7 @@ This repository demonstrates mastery in:
 
 ---
 
-## 📜 License & Acknowledgments
+## 📜 Acknowledgments
 
 - **Curriculum:** Designed by [freeCodeCamp](https://www.freecodecamp.org/).
 - **Author:** [Lantern-7](https://github.com/Lantern-7)
-- **License:** Distributed under the [MIT License](https://opensource.org/licenses/MIT).
