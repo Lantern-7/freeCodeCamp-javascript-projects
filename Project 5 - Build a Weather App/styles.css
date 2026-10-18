@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+select {
+  flex: 1;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+.weather-card {
+  display: none; /* Hidden until weather is fetched */
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.weather-card img {
+  width: 100px;
+  height: 100px;
+}
+
+#location {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.weather-main {
+  text-transform: capitalize;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.temps {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.details {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: left;
+  padding-left: 20px;
+}
